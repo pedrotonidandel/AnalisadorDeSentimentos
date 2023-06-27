@@ -54,7 +54,6 @@ classifier.fit(X_train_vectorized, y_train)
 
 texto = input('Digite a frase: ')
 
-# Criar uma lista contendo a frase digitada pelo usuário
 user_input = [texto]
 
 user_input_vectorized = vetorizador.transform(user_input)
